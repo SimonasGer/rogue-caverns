@@ -1,3 +1,13 @@
+#game {
+    display: flex;
+}
+#ui, #actions {
+    width: 20vw;
+}
+#combatLog {
+    height: 200px;
+    width: 250px;
+}
 #map {
     display: flex;
     align-items: center;
@@ -5,4 +15,9 @@
 }
 .wall {
     background-color: black;
+}
+td {
+    border: solid;
+    width: 50px;
+    height: 50px;
 }

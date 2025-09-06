@@ -1,6 +1,6 @@
 const map = document.getElementById("map");
 const width = 50;
-const height = 20;
+const height = 50;
 
 for (let i = 0; i < width; i++) {
     let row = document.createElement("div");
@@ -9,8 +9,8 @@ for (let i = 0; i < width; i++) {
         let column = document.createElement("div");
         column.style.border = "solid";
         column.style.borderWidth = "1px";
-        column.style.width = "25px";
-        column.style.height = "25px";
+        column.style.width = "12px";
+        column.style.height = "12px";
         column.id = `${i}-${j}`;
         column.classList.add("cell");
         if (Math.random() < 0.55) {

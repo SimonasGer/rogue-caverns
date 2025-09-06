@@ -6,13 +6,89 @@
     <link rel="stylesheet" href="../css/map.css">
 </head>
 <body>
-    <h1>Rogue Caverns</h1>
-    <section id="ui">
+    <div id="game">
+        <section id="ui">
+            <h2>UI</h2>
+            <div>
+                <h3>Stats</h3>
+                <p>Health: <span>0/0</span></p>
+                <p>Mana: <span>0/0</span></p>
+            </div>
+            <div>
+                <h3>Inventory</h3>
+                <table>
+                    <tr>
+                        <td id="inv-1"></td>
+                        <td id="inv-2"></td>
+                        <td id="inv-3"></td>
+                        <td id="inv-4"></td>
+                    </tr>
+                    <tr>
+                        <td id="inv-5"></td>
+                        <td id="inv-6"></td>
+                        <td id="inv-7"></td>
+                        <td id="inv-8"></td>
+                    </tr>
+                    <tr>
+                        <td id="inv-9"></td>
+                        <td id="inv-10"></td>
+                        <td id="inv-11"></td>
+                        <td id="inv-12"></td>
+                    </tr>
+                    <tr>
+                        <td id="inv-13"></td>
+                        <td id="inv-14"></td>
+                        <td id="inv-15"></td>
+                        <td id="inv-16"></td>
+                    </tr>
+                </table>
+                <div>
+                    Item Description: <span></span>
+                </div>
+            </div>
+        </section>
+        <section id="actions">
+            <h2>Movement</h2>
+            <table>
+                <tr>
+                    <td></td>
+                    <td><button>UP</button></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><button>LEFT</button></td>
+                    <td><button>DOWN</button></td>
+                    <td><button>RIGHT</button></td>
+                </tr>
+            </table>
+            <h2>Actions</h2>
+            <table>
+                <tr>
+                    <td><button>Attack</button></td>
+                    <td><button>Defensive Stance</button></td>
+                    <td><button>Offensive Stance</button></td>
+                </tr>
+                <tr>
+                    <td><button></button></td>
+                    <td><button></button></td>
+                    <td><button></button></td>
+                </tr>
+                <tr>
+                    <td><button></button></td>
+                    <td><button></button></td>
+                    <td><button></button></td>
+                </tr>
+            </table>
+            <h2>Combat</h2>
+            <textarea name="combatLog" id="combatLog">
 
-    </section>
-    <section id="map">
-
-    </section>
+            </textarea>
+        </section>
+        <section id="map">
+            <!-- Made with code, dont touch -->
+        </section>
+    </div>
+    
     <script src="../javascript/createMap.js"></script>
     <script src="../javascript/placeEntities.js"></script>
 </body>

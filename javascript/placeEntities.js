@@ -9,6 +9,7 @@ const placeEntity = (icon, name) => {
     place.classList.add(name);
     place.classList.add("entity");
     place.textContent = icon;
+    place.style.fontSize = "xx-small";
     return;
 }
 
